@@ -1,0 +1,46 @@
+.documents-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.documents-page h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.upload-section {
+  margin-bottom: 25px;
+  padding: 20px;
+  border: 2px dashed #d1d8e0;
+  border-radius: 10px;
+  text-align: center;
+  background: #f9fafc;
+  transition: border-color 0.3s ease;
+}
+
+.upload-section:hover {
+  border-color: #4a90e2;
+}
+
+.document-list {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fdfdfd;
+  border: 1px solid #eaeaea;
+}
+
+.document-list h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #34495e;
+}

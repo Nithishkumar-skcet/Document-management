@@ -1,0 +1,104 @@
+.archive-container {
+  padding: 2rem;
+  background: #f8fafc;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.archive-container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.loading {
+  font-size: 1rem;
+  color: #64748b;
+}
+
+.empty-text {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin: 1rem 0;
+}
+
+.archive-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.archive-table th,
+.archive-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.archive-table thead {
+  background: #0f172a;
+  color: white;
+}
+
+.archive-table tbody tr:nth-child(even) {
+  background: #f1f5f9;
+}
+
+.archive-table tbody tr:hover {
+  background: #e2e8f0;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Action Buttons */
+.archive-btn {
+  background: #1d4ed8;
+  color: white;
+  padding: 0.35rem 0.7rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.archive-btn:hover {
+  background: #2563eb;
+}
+
+.restore-btn {
+  background: #059669;
+  color: white;
+  padding: 0.35rem 0.7rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.restore-btn:hover {
+  background: #047857;
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: white;
+  padding: 0.35rem 0.7rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}

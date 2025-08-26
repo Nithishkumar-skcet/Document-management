@@ -1,0 +1,138 @@
+.search-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  flex: 1;
+  max-width: 500px;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  font-size: 1rem;
+}
+
+.search-btn {
+  padding: 0.8rem 1.5rem;
+  background: #3498db;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.search-btn:hover {
+  background: #2980b9;
+}
+
+.loading,
+.error,
+.no-results {
+  text-align: center;
+  margin-top: 1rem;
+  color: #7f8c8d;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+.results-section {
+  margin-top: 2rem;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+}
+
+.result-card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.doc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doc-title {
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.doc-visibility {
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.doc-visibility.PUBLIC {
+  background: #2ecc71;
+  color: white;
+}
+
+.doc-visibility.PRIVATE {
+  background: #e74c3c;
+  color: white;
+}
+
+.doc-description {
+  margin: 0.8rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.doc-meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+}
+
+.open-btn {
+  background: #3498db;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.open-btn:hover {
+  background: #2980b9;
+}
